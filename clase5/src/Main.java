@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> origin/main
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Scanner teclado = new Scanner(System.in);
         int numeroUsuario=0;
         int numeroAdivina = (int) Math.floor(Math.random()*100);
@@ -28,6 +32,12 @@ public class Main {
                 System.out.println("te quedan "+vidas+" vidas");
 
             }
+=======
+        System.out.printf("Hello and welcome!");
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i = " + i);
+>>>>>>> origin/main
         }
     }
 }
